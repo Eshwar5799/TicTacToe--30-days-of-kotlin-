@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicTacGame</string>
+    <string name="Player1">Player 1: 0"</string>
+    <string name="Player2">Player 2: 0"</string>
+</resources>
