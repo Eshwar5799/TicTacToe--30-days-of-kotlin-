@@ -90,12 +90,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun player2Wins() {
         player2Points++
         Toast.makeText(this, "Player 2 wins!", Toast.LENGTH_LONG).show()
+        // Increased toast length
         updatePointsText()
         resetBoard()
     }
 
     private fun draw() {
         Toast.makeText(this, "Draw!", Toast.LENGTH_LONG).show()
+        // Increased toast length
         resetBoard()
     }
 
